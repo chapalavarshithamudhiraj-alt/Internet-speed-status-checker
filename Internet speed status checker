@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() {
+    int speed;
+    printf("Enter internet speed: ");
+    scanf("%d", &speed);
+
+    if (speed >= 50)
+        printf("Fast internet");
+    else
+        printf("Slow internet");
+    return 0;
+}
